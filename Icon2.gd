@@ -1,5 +1,5 @@
-extends Sprite
+extends Sprite2D
 
 func _process(delta):
-	position.x += 100 * delta
-	rotation += 2 * delta
+    position.x += 100.0 * delta
+    rotation += 2.0 * delta
